@@ -3,45 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Coody агаарын майхан · Монголд туршсан · Mazala</title>
-<meta name="description" content="Coody агаарын майхны Монгол дахь онцгой эрхтэй дистрибьютер. Салхи, борооны туршилтын бүртгэл. Сэлбэг нөөцтэй, баталгаатай.">
+<title>Coody агаарын майхан · Монгол дахь албан ёсны дистрибьютер · Mazala</title>
+<meta name="description" content="Coody агаарын майхны Монгол дахь онцгой эрхтэй дистрибьютер. Бүрэн загварын сонголт, хээрийн туршилтын бүртгэл, сэлбэг нөөцтэй.">
 
-<!-- ═══════════════════════════════════════════════════════════════════
-     ЗАСАХ ЁСТОЙ ЗҮЙЛС — бүгд «▮» тэмдэгтэй. greenstove.html-тэй ижил бүтэц.
-     ═══════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════
+     ЗУРГИЙН ЖАГСААЛТ
+     Хоосон нүд бүр дээр ямар зураг, ямар хэмжээтэй байхыг бичсэн байгаа.
+     Зураг нэмэх: <div class="shot r-4x3" data-shot="..."> дотор
+                  <img src="img/coody-17-2.jpg" alt="Coody 17.2"> гэж хий.
+     Placeholder өөрөө алга болно.
+
+     ҮНЭ, ҮЗҮҮЛЭЛТ: «▮» тэмдэгтэй хэсэг бүрийг сольж бич.
+     ═══════════════════════════════════════════════════════════════════════ -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Onest:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="mazala.css">
-<style>
-  :root { --signal: #175E96; } /* Coody — тэнгэрийн хөх (агаар) */
-</style>
 </head>
 <body>
 
 <header class="bar">
   <div class="wrap bar-in">
     <a href="/" class="mark">Mazala</a>
-    <span class="bar-tag">Онцгой эрхтэй дистрибьютер</span>
+    <span class="bar-tag">Coody · Албан ёсны дистрибьютер</span>
     <a href="#" class="btn small bar-cta" data-msg>Мессенжерээр асуух</a>
   </div>
 </header>
 
 <!-- ── HERO ─────────────────────────────────────────────────────────── -->
-<section class="hero">
+<section class="hero-full">
+  <div class="shot" data-shot="ГОЛ ЗУРАГ · 2400×1400
+Майхан бүтнээрээ, оройн зөөлөн гэрэлд, дотор нь гэрэлтэй.
+Хүн эсвэл гэр бүл харагдвал илүү. Монголын байгаль дэвсгэртэй."></div>
+  <div class="hero-scrim"></div>
   <div class="wrap">
-    <p class="eyebrow"><b>Coody</b> · агаарын майхан · Монгол дахь онцгой эрх</p>
-    <h1>Coody<span>Агаарын майхан</span></h1>
-    <p class="lede">Гуалингүй. Нэг хүн ▮ 00 минутад босгоно. Хугарах юм байхгүй —
-      учир нь хугарах ямар ч гуалин байхгүй. Монголын салхинд туршсан.</p>
-    <div class="price-row">
-      <span class="price">₮0,000,000-аас</span>
-      <span class="price-note">▮ загвараас хамаарна · агуулахад бэлэн</span>
-    </div>
+    <p class="eyebrow">Coody · агаарын майхан · Монгол дахь онцгой эрх</p>
+    <h1>Гуалингүй майхан.<br>Босгоход 10 минут.</h1>
+    <p class="lede">Хугарах гуалин байхгүй. Насос залгаад л болоо. Зуухны нүхтэй,
+      босоо зогсох өндөртэй, өрөө тусгаарлаж болно.</p>
     <div class="btns">
-      <a href="#" class="btn" data-msg>Мессенжерээр асуух</a>
-      <a href="#" class="btn ghost" data-wa>WhatsApp</a>
+      <a href="#range" class="btn on-dark">Бүх загварыг үзэх</a>
+      <a href="#" class="btn ghost-dark" data-msg>Мессенжерээр асуух</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TRUST BAR ────────────────────────────────────────────────────── -->
+<section class="trust">
+  <div class="wrap">
+    <div class="trust-in">
+      <div><b>▮ 00 сар</b><br>Баталгаа</div>
+      <div><b>Улаанбаатарт</b><br>Агуулах ба сэлбэг</div>
+      <div><b>Ironman Mall</b><br>Босоод байна, ирж үз</div>
+      <div><b>Албан ёсны эрх</b><br>Coody-той шууд гэрээтэй</div>
     </div>
   </div>
 </section>
@@ -53,22 +68,23 @@
 
     <div class="record" id="record">
       <div class="record-head">
-        <span>Туршилтын бүртгэл</span>
+        <strong>Хээрийн туршилтын бүртгэл</strong>
         <span class="serial">MZL-CD-▮-01</span>
       </div>
       <dl class="record-body">
-        <div class="row"><dt>Байршил</dt><dd>▮ Хустайн задгай тал / ▮ нуурын эрэг — хамгаалалтгүй газар</dd></div>
+        <div class="row"><dt>Загвар</dt><dd>▮ Coody ___</dd></div>
+        <div class="row"><dt>Байршил</dt><dd>▮ Задгай тал, хамгаалалтгүй газар</dd></div>
         <div class="row"><dt>Огноо</dt><dd>▮ 2025.__.__ — 2025.__.__</dd></div>
-        <div class="row"><dt>Салхины хурд</dt><dd>▮ 00 м/с тогтмол · 00 м/с шуурга</dd></div>
+        <div class="row"><dt>Салхины хурд</dt><dd>▮ 00 м/с тогтмол · 00 м/с шуургатай үед</dd></div>
         <div class="row"><dt>Хур тунадас</dt><dd>▮ 0 шөнө бороо · дотогш нэвчээгүй</dd></div>
-        <div class="row"><dt>Босгосон хугацаа</dt><dd>▮ 1 хүн · 00 мин 00 сек (насосоор)</dd></div>
-        <div class="row"><dt>Тасралтгүй байрласан</dt><dd>▮ 0 хоног · агаар нэмээгүй / ▮ 0 удаа нэмсэн</dd></div>
-        <div class="row"><dt>Илэрсэн зүйл</dt><dd>▮ Бодит зүйл бич. Жишээ нь: «Шороон шуурганы дараа хаалганы цахилгаан товч бөглөрсөн — цэвэрлэхэд болсон.» Ийм бичлэг «Ямар ч асуудал гараагүй» гэхээс хамаагүй итгэл төрүүлдэг.</dd></div>
+        <div class="row"><dt>Босгосон хугацаа</dt><dd>▮ 1 хүн · 00 минут</dd></div>
+        <div class="row"><dt>Байрласан хугацаа</dt><dd>▮ 0 хоног · агаар 0 удаа нэмсэн</dd></div>
+        <div class="row"><dt>Илэрсэн зүйл</dt><dd>▮ Бодит зүйлийг бич. Жишээ: «Шороон шуурганы дараа хаалганы цахилгаан бөглөрсөн. Цэвэрлэхэд асуудалгүй болсон.» Ийм бичлэг «Юу ч болоогүй» гэхээс хамаагүй итгэл төрүүлдэг.</dd></div>
         <div class="row verdict"><dt>Дүгнэлт</dt><dd>Тэнцсэн — борлуулалтад гаргасан</dd></div>
       </dl>
       <div class="record-foot">
         <span>Туршсан: TuRuu Bay · Mazala Outdoors</span>
-        <span>Бичлэг доор</span>
+        <span>Бичлэгийг доор үз</span>
       </div>
     </div>
   </div>
@@ -78,64 +94,249 @@
 <section class="section tight flush">
   <div class="wrap">
     <div class="video" data-yt="▮VIDEO_ID">
-      <div class="video-play"><span>Салхин дахь туршилтыг үзэх</span></div>
+      <div class="video-play"><span>Туршилтыг үзэх</span></div>
     </div>
   </div>
 </section>
 
-<!-- ── ЯАГААД ИЛҮҮ ҮНЭТЭЙ ВЭ ─────────────────────────────────────────── -->
+<!-- ── ЯАГААД АГААРЫН МАЙХАН ────────────────────────────────────────── -->
 <section class="section">
   <div class="wrap">
-    <p class="eyebrow">Үнийн ялгаа</p>
-    <h2 class="head">Taobao дээр ижил төстэй нь хямд байгаа</h2>
-    <p class="lede muted">Тийм ээ. Ялгаа нь агаарын хоолой цоорсны дараа эхэлдэг. Тэр өдөр хэн утсаа авах вэ.</p>
-    <div class="cols">
-      <div>
-        <span class="n">01</span>
-        <h3>Coody-той шууд гэрээтэй</h3>
-        <p>Монгол дахь онцгой эрх. Үйлдвэрээс шууд, зуучлагчгүй. Гэрээ, гэрчилгээг шаардвал үзүүлнэ.</p>
+    <p class="eyebrow">Юугаараа өөр вэ</p>
+    <h2 class="head">Гуалин байхгүй бол хугарах юм байхгүй</h2>
+
+    <div class="frow">
+      <div class="frow-text">
+        <span class="n">TPU агаарын хоолой</span>
+        <h3>Насос залгаад л болоо</h3>
+        <p>Металл гуалин байхгүй. Оронд нь TPU агаарын хоолой. Хүйтэнд хугарах, гулзайх,
+          холбоос нь гээгдэх асуудал байхгүй. Хоолой тус бүр тусдаа — нэг нь гэмтэхэд
+          майхан бүхэлдээ унахгүй.</p>
       </div>
-      <div>
-        <span class="n">02</span>
-        <h3>Агаарын хоолой нөөцтэй</h3>
-        <p>Хоолой (bladder), насос, нөхөөс, цахилгаан товч — агуулахад. Майхан бүхэлд нь солих шаардлагагүй, эвдэрсэн хэсгийг нь солино.</p>
+      <div class="shot r-4x3" data-shot="ЗУРАГ · 1600×1200
+Агаарын хоолойн ойрын зураг эсвэл насос залгаж байгаа гар.
+Хоолойн бүтэц, оёдол харагдах ёстой."></div>
+    </div>
+
+    <div class="frow flip">
+      <div class="frow-text">
+        <span class="n">Зуухны нүх</span>
+        <h3>Дотор нь зуух тавина</h3>
+        <p>Загвар бүр зуухны нүхтэй. Хавар, намрын хүйтэнд майхан дотроо дулаацаж болно.
+          ▮ Ямар зуух тохирохыг, ямар зайд тавихыг тодорхой бич.</p>
       </div>
-      <div>
-        <span class="n">03</span>
-        <h3>Босгосон байгаа</h3>
-        <p>Ironman Mall дээр босоо байна. Дотогш ор, өндрийг нь мэдэр, оёдлыг нь шалга. Дараа нь шийд.</p>
+      <div class="shot r-4x3" data-shot="ЗУРАГ · 1600×1200
+Майхан дотор зуух асаалттай, яндан нүхээр гарсан.
+Шөнийн цагаар, дотоод гэрэлтэй бол хамгийн сайн."></div>
+    </div>
+
+    <div class="frow">
+      <div class="frow-text">
+        <span class="n">Модуль бүтэц</span>
+        <h3>Хооронд нь холбоно</h3>
+        <p>Хэд хэдэн майхныг холбогчоор нийлүүлж, том бааз болгож болно. Бүлгээр,
+          гэр бүлээрээ явахад өрөө тусгаарлах, эсвэл нэг том орон зай үүсгэх боломжтой.</p>
       </div>
+      <div class="shot r-4x3" data-shot="ЗУРАГ · 1600×1200
+2-3 майхан холбогдсон бааз, дээрээс эсвэл хажуугаас.
+Хэмжээ мэдрэгдэхийн тулд хүн орсон байх."></div>
     </div>
   </div>
 </section>
 
-<!-- ── ҮЗҮҮЛЭЛТ ─────────────────────────────────────────────────────── -->
-<section class="section">
+<!-- ── БҮХ ЗАГВАР ───────────────────────────────────────────────────── -->
+<section class="section" id="range">
   <div class="wrap">
-    <p class="eyebrow">Техникийн үзүүлэлт</p>
-    <h2 class="head">Тоо баримт</h2>
-    <table class="spec">
-      <caption>▮ Загвар: Coody ▮▮▮ · бусад загварын үзүүлэлтийг доор</caption>
-      <tbody>
-        <tr><th>Багтаамж</th><td>▮ 0–0 хүн</td></tr>
-        <tr><th>Дотоод хэмжээ</th><td>▮ 000 × 000 см · өндөр 000 см</td></tr>
-        <tr><th>Талбай</th><td>▮ 00 м²</td></tr>
-        <tr><th>Гадна бүрээс</th><td>▮ 000D оксфорд · PU 0,000 мм ус нэвтрүүлэхгүй</td></tr>
-        <tr><th>Шалны материал</th><td>▮ 000D · 0,000 мм</td></tr>
-        <tr><th>UV хамгаалалт</th><td>▮ UPF 00+ · мөнгөн бүрхүүл</td></tr>
-        <tr><th>Агаарын хоолой</th><td>▮ 0 ширхэг · TPU · ажлын даралт 0.0 бар</td></tr>
-        <tr><th>Босгох хугацаа</th><td>▮ 1 хүн 00 мин · насос багцад орсон</td></tr>
-        <tr><th>Салхинд тэсвэрлэх</th><td>▮ 00 м/с (үйлдвэрийн үзүүлэлт) · манай туршилт: 00 м/с</td></tr>
-        <tr><th>Зуухны нүх</th><td>▮ Байгаа / Байхгүй — тодорхой бич</td></tr>
-        <tr><th>Хураасан хэмжээ</th><td>▮ 000 × 00 × 00 см</td></tr>
-        <tr><th>Жин</th><td>▮ 00 кг (тээвэрлэх цүнхтэй)</td></tr>
-        <tr><th>Багц дотор</th><td>▮ Майхан, насос, 00 хадаас, 0 татлага, нөхөөсний иж бүрдэл, цүнх</td></tr>
-      </tbody>
-    </table>
+    <p class="eyebrow">Бүрэн сонголт</p>
+    <h2 class="head">Coody-ийн бүх загвар</h2>
+    <p class="lede">Хэдэн хүнтэй, ямар зорилгоор явахаас хамаарч сонгоно.
+      Аль нь тохирохыг мэдэхгүй бол бичээрэй — асуулт асууж тодруулна.</p>
+
+    <!-- ТОМ -->
+    <div class="rangegroup">
+      <h3>Том загвар</h3>
+      <p class="sub">Бүлэг, урт хугацааны бааз, 2 өрөө.</p>
+      <div class="range">
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Familia 17.2 PRO"></div>
+          <h4>Familia AirTent 17.2 PRO</h4>
+          <p class="meta">2–10 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Familia 17.2"></div>
+          <h4>Familia AirTent 17.2</h4>
+          <p class="meta">2–10 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Hub PRO"></div>
+          <h4>Hub PRO</h4>
+          <p class="meta">2–6 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ГЭР БҮЛИЙН -->
+    <div class="rangegroup">
+      <h3>Гэр бүлийн загвар</h3>
+      <p class="sub">Хамгийн түгээмэл сонголт. Гэр бүл, найзууд.</p>
+      <div class="range">
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Familia 13.6"></div>
+          <h4>Familia AirTent 13.6</h4>
+          <p class="meta">2–8 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Hub Shelter"></div>
+          <h4>Hub Shelter</h4>
+          <p class="meta">2–6 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Bestona"></div>
+          <h4>Bestona</h4>
+          <p class="meta">2–4 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ДУНД -->
+    <div class="rangegroup">
+      <h3>Дунд хэмжээ</h3>
+      <p class="sub">Хос, жижиг гэр бүл. Машинд багтахад хялбар.</p>
+      <div class="range">
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · 10.0 PRO"></div>
+          <h4>Coody 10.0 PRO</h4>
+          <p class="meta">2–4 хүн · ▮ 00 м² · ▮ канвас</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · 10.0"></div>
+          <h4>Coody 10.0</h4>
+          <p class="meta">2–4 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Aurora Dome"></div>
+          <h4>Aurora Dome</h4>
+          <p class="meta">2–4 хүн · ▮ 00 м² · бөмбөгөр</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- АВСААРХАН -->
+    <div class="rangegroup">
+      <h3>Авсаархан</h3>
+      <p class="sub">1–4 хүн. Хамгийн хөнгөн, хамгийн хурдан.</p>
+      <div class="range">
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · Coody 8.0"></div>
+          <h4>Coody 8.0</h4>
+          <p class="meta">1–4 хүн · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+        <a href="#" class="item" data-msg>
+          <div class="shot r-4x3" data-shot="1200×900 · AirTarp"></div>
+          <h4>AirTarp</h4>
+          <p class="meta">Сүүдрэвч · ▮ 00 м²</p>
+          <p class="p">₮0,000,000</p>
+          <span class="stockx">▮ Захиалгаар / Агуулахад</span>
+          <span class="ask">Асуух →</span>
+        </a>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:34px;font-size:16px">
+      ▮ Агуулахад байгаа болон захиалгаар ирэх загварыг тодорхой ялгаж бич.
+      Байхгүй загварыг «Захиалгаар · ▮ 00 хоног» гэж тэмдэглэвэл хүлээлт зөв тогтоно.
+    </p>
   </div>
 </section>
 
-<!-- ── БАТАЛГАА БА СЭЛБЭГ ───────────────────────────────────────────── -->
+<!-- ── ӨНГӨ ─────────────────────────────────────────────────────────── -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Өнгөний сонголт</p>
+    <h2 class="head">Дөрвөн өнгө</h2>
+    <p class="lede">▮ Аль өнгө нь агуулахад байгааг бич. Загвар бүр бүх өнгөтэй байдаггүй.</p>
+    <div class="ways">
+      <div class="way"><i style="background:#D9CBB2"></i><span>Beige</span></div>
+      <div class="way"><i style="background:#3A4A3C"></i><span>Forest Green</span></div>
+      <div class="way"><i style="background:#8A8C89"></i><span>Gray</span></div>
+      <div class="way"><i style="background:#22262A"></i><span>Black</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ХАРЬЦУУЛАЛТ ──────────────────────────────────────────────────── -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Харьцуулалт</p>
+    <h2 class="head">Хажуу хажуугаар нь</h2>
+    <div class="cmp-scroll">
+      <table class="cmp">
+        <thead>
+          <tr><th>Загвар</th><th>17.2</th><th>13.6</th><th>Hub</th><th>10.0</th><th>8.0</th></tr>
+        </thead>
+        <tbody>
+          <tr><th>Хүний тоо</th><td>2–10</td><td>2–8</td><td>2–6</td><td>2–4</td><td>1–4</td></tr>
+          <tr><th>Талбай</th><td>▮ 00 м²</td><td>▮ 00 м²</td><td>▮ 00 м²</td><td>▮ 00 м²</td><td>▮ 00 м²</td></tr>
+          <tr><th>Өндөр</th><td>▮ 000 см</td><td>▮ 000 см</td><td>▮ 000 см</td><td>▮ 000 см</td><td>▮ 000 см</td></tr>
+          <tr><th>Босгох хугацаа</th><td>▮ 00 мин</td><td>▮ 00 мин</td><td>▮ 00 мин</td><td>▮ 00 мин</td><td>▮ 00 мин</td></tr>
+          <tr><th>Жин</th><td>▮ 00 кг</td><td>▮ 00 кг</td><td>▮ 00 кг</td><td>▮ 00 кг</td><td>▮ 00 кг</td></tr>
+          <tr><th>Зуухны нүх</th><td>▮ Тийм</td><td>▮ Тийм</td><td>▮ Тийм</td><td>▮ Тийм</td><td>▮ Тийм</td></tr>
+          <tr><th>Үнэ</th><td>₮0,000,000</td><td>₮0,000,000</td><td>₮0,000,000</td><td>₮0,000,000</td><td>₮0,000,000</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── ДАГАЛДАХ ХЭРЭГСЭЛ ────────────────────────────────────────────── -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Дагалдах хэрэгсэл</p>
+    <h2 class="head">Майхнаас гадна</h2>
+    <div class="acc">
+      <div><div class="shot r-1x1" data-shot="800×800 · Насос"></div><h4>Цахилгаан насос</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · Хивс"></div><h4>Тохирсон хивс</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · Шалны дэвсгэр"></div><h4>PVC дэвсгэр</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · Зуух"></div><h4>Майхны зуух</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · Холбогч"></div><h4>Холбогч</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · TPU хаалга"></div><h4>TPU хаалга, цонх</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · Гуалин"></div><h4>Сүүдрэвчний гуалин</h4><p>₮000,000</p></div>
+      <div><div class="shot r-1x1" data-shot="800×800 · Хураах уут"></div><h4>Вакуум уут</h4><p>₮000,000</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── БАТАЛГАА ─────────────────────────────────────────────────────── -->
 <section class="section">
   <div class="wrap">
     <p class="eyebrow">Баталгаа ба үйлчилгээ</p>
@@ -144,17 +345,20 @@
       <div>
         <span class="n">Баталгаа</span>
         <h3>▮ 00 сар</h3>
-        <p>Оёдол, битүүмж, цахилгаан товч, агаарын хоолойн үйлдвэрийн доголдол. Худалдан авалтын огноог бид бүртгэдэг тул баримт хайх шаардлагагүй.</p>
+        <p>Оёдол, битүүмж, цахилгаан товч, агаарын хоолойн үйлдвэрийн доголдол.
+          Худалдан авалтын огноог бид бүртгэдэг — баримт хайх шаардлагагүй.</p>
       </div>
       <div>
         <span class="n">Сэлбэг</span>
-        <h3>▮ Хоолой солих 00 хоногт</h3>
-        <p>Агаарын хоолой, насос, товч нөөцтэй. Хэрэглэгчийн буруутай гэмтэлд ч сэлбэгийг зарна — майхан бүхэлд нь солих шаардлагагүй.</p>
+        <h3>▮ 00 хоногт</h3>
+        <p>Агаарын хоолой, насос, товч нөөцтэй. Өөрийн буруугаас гэмтсэн ч сэлбэгийг зарна —
+          майхан бүхэлд нь солих шаардлагагүй.</p>
       </div>
       <div>
         <span class="n">Засвар</span>
-        <h3>▮ Нөхөх үйлчилгээ</h3>
-        <p>Оёдол, нөхөөс, битүүмжийн засвар Улаанбаатарт. ▮ Хугацаа, үнэ. Аялалын өмнө шалгуулах бол урьдчилж авчир.</p>
+        <h3>Улаанбаатарт</h3>
+        <p>Оёдол, нөхөөс, битүүмжийн засвар. ▮ Хугацаа, үнэ. Аялалын өмнө шалгуулах бол
+          урьдчилж авчирна уу.</p>
       </div>
     </div>
   </div>
@@ -168,71 +372,31 @@
     <div class="cols">
       <div>
         <h3>Явганаар үүрч явдаг бол</h3>
-        <p>▮ 00 кг. Энэ бол машинаас буулгаж босгодог майхан. Нуруундаа үүрэх бол өөр төрлийн майхан хэрэгтэй — бидэнд байгаа.</p>
+        <p>▮ 00 кг. Энэ бол машинаас буулгаж босгодог майхан. Нуруундаа үүрэх бол
+          өөр төрлийн майхан хэрэгтэй — бидэнд байгаа, асуугаарай.</p>
       </div>
       <div>
         <h3>Өвлийн уулын аялалд</h3>
-        <p>Гурван улирлын майхан. Их цас, −30°-т удаан хоноход зориулагдаагүй. ▮ Өвлийн шийдлийн талаар ярилцъя.</p>
+        <p>Гурван улирлын майхан. Их цас, удаан үргэлжлэх хүйтэнд зориулаагүй.
+          ▮ Өвлийн шийдлийн талаар тусад нь ярилцъя.</p>
       </div>
       <div>
-        <h3>Жилд нэг удаа хэрэглэх бол</h3>
-        <p>Хааяа явдаг бол энэ үнэ өөрийгөө нөхөхгүй. Бид үүнийг нуухгүй. Хямд хувилбар танд илүү зөв байж магадгүй.</p>
+        <h3>Жилд нэг удаа явдаг бол</h3>
+        <p>Хааяа хэрэглэдэг бол энэ үнэ өөрийгөө нөхөхгүй. Бид үүнийг нуухгүй.
+          Хямд хувилбар танд илүү зөв байж магадгүй.</p>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ── ЗАГВАР БА ҮНЭ ────────────────────────────────────────────────── -->
-<section class="section flush">
-  <div class="wrap">
-    <p class="eyebrow">Загвар ба үнэ</p>
-    <h2 class="head">Аль нь тань дээр тохирох вэ</h2>
-    <div class="models">
-      <div class="model">
-        <div class="tagx">▮ Жижиг</div>
-        <h3>▮ Coody ___</h3>
-        <p class="muted">▮ 2–3 хүн, хос эсвэл жижиг гэр бүл.</p>
-        <div class="m-price">₮0,000,000</div>
-        <ul><li>▮ 00 м²</li><li>▮ 00 кг</li><li>▮ 00 мин босгоно</li></ul>
-        <a href="#" class="btn ghost" data-msg>Асуух</a>
-      </div>
-      <div class="model lead">
-        <div class="tagx">▮ Хамгийн эрэлттэй</div>
-        <h3>▮ Coody Havena Pro</h3>
-        <p class="muted">▮ 4–6 хүн, гэр бүлийн аялал.</p>
-        <div class="m-price">₮0,000,000</div>
-        <ul><li>▮ 00 м²</li><li>▮ 00 кг</li><li>▮ 00 мин босгоно</li></ul>
-        <a href="#" class="btn" data-msg>Асуух</a>
-      </div>
-      <div class="model">
-        <div class="tagx">▮ Том</div>
-        <h3>▮ Coody ___</h3>
-        <p class="muted">▮ Бүлэг, бааз, урт хугацааны зогсоол.</p>
-        <div class="m-price">₮0,000,000</div>
-        <ul><li>▮ 00 м²</li><li>▮ 00 кг</li><li>▮ 00 мин босгоно</li></ul>
-        <a href="#" class="btn ghost" data-msg>Асуух</a>
-      </div>
-    </div>
-    <p class="muted" style="margin-top:22px;font-size:15px">
-      Худалдан авалт Мессенжерээр явагдана. Загвар сонгож, хүргэлтээ ярилцаад төлбөрөө хийнэ.
-      ▮ Онлайн захиалга: <a href="https://mazala.online">mazala.online</a>
-    </p>
   </div>
 </section>
 
 <!-- ── БАЙГУУЛЛАГА ──────────────────────────────────────────────────── -->
-<section class="section">
+<section class="section flush">
   <div class="wrap">
     <p class="eyebrow">Байгууллага · бааз · эвент</p>
     <h2 class="head">3-аас дээш майхан авах бол</h2>
-    <p class="lede muted">Жуулчны бааз, аялал жуулчлалын компани, эвент зохион байгуулагч, багийн аялал.
-      Тусдаа үнэ, гэрээ, нэхэмжлэх.</p>
-    <div class="cols">
-      <div><span class="n">Үнэ</span><h3>Тоо ширхэгээс хамаарсан</h3><p>3+ ширхэгээс тусдаа үнэ. Баазын иж бүрэн багц бол илүү нөхцөл.</p></div>
-      <div><span class="n">Бичиг баримт</span><h3>Гэрээ, НӨАТ-тай нэхэмжлэх</h3><p>Албан ёсны гэрээ, e-баримт, данс хооронд шилжүүлэг.</p></div>
-      <div><span class="n">Нөөц</span><h3>Сэлбэгийн багц</h3><p>Улирлын турш ажиллах бааз бол сэлбэгийн нөөц багцыг хамт өгнө. Дунд нь зогсохгүй.</p></div>
-    </div>
-    <div class="btns" style="margin-top:32px">
+    <p class="lede">Жуулчны бааз, аялалын компани, эвент зохион байгуулагч, багийн аялал.
+      Тусдаа үнэ, гэрээ, НӨАТ-тай нэхэмжлэх, сэлбэгийн нөөц багц.</p>
+    <div class="btns">
       <a href="#" class="btn" data-msg-b2b>Байгууллагын хүсэлт илгээх</a>
     </div>
   </div>
@@ -244,15 +408,18 @@
     <p class="eyebrow">Түгээмэл асуулт</p>
     <div class="faq">
       <details><summary>Салхинд агаарын майхан тэсэх үү?</summary>
-        <p>▮ Хамгийн их асуудаг асуулт. Хоолойн даралт, татлагын тоо, хадаасны төрөл, ямар салхинд туршсанаа тодорхой бич. Бичлэгийн холбоос энд тавь.</p></details>
+        <p>▮ Хамгийн их асуудаг асуулт. Хоолойн даралт, татлагын тоо, хадаасны төрөл,
+          ямар салхинд туршсанаа тодорхой бич. Туршилтын бичлэгийн холбоос энд тавь.</p></details>
       <details><summary>Агаар алдвал майхан унах уу?</summary>
-        <p>▮ Хоолой тус тусдаа эсэх, аажим суурьшдаг эсэх, талбай дээр нөхөх боломж — бодит хариу бич.</p></details>
-      <details><summary>Дотор нь зуух тавьж болох уу?</summary>
-        <p>▮ Зуухны нүх байгаа эсэх, ямар зайд тавих, ямар зуух тохирох — тодорхой бич. Хэрэв болохгүй бол болохгүй гэж хэл.</p></details>
+        <p>▮ Хоолой тус тусдаа эсэх, аажим суудаг эсэх, талбай дээр нөхөх боломж — бодит хариу.</p></details>
+      <details><summary>Дотор нь ямар зуух тавьж болох вэ?</summary>
+        <p>▮ Зуухны нүхний хэмжээ, ямар зуух тохирох, аюулгүй зай — тодорхой бич.</p></details>
       <details><summary>Хэдэн хүн босгодог вэ?</summary>
         <p>▮ Ганц хүн босгож чадах эсэх, хугацаа. Салхитай өдөр хоёр хүн хэрэгтэй эсэх.</p></details>
       <details><summary>Нойтон хураавал яах вэ?</summary>
-        <p>▮ Хатаах зааварчилгаа. Хэдэн хоногийн дотор хатаах ёстой, хаана дэлгэх, мөөгөнцрөөс сэргийлэх.</p></details>
+        <p>▮ Хатаах зааварчилгаа — хэдэн хоногийн дотор, хаана дэлгэх, мөөгөнцрөөс сэргийлэх.</p></details>
+      <details><summary>Агуулахад байхгүй загварыг захиалж болох уу?</summary>
+        <p>▮ Захиалгын хугацаа, урьдчилгаа шаардах эсэх, хүлээх хугацааг тодорхой бич.</p></details>
     </div>
   </div>
 </section>
@@ -261,12 +428,12 @@
 <section class="section dark close-cta">
   <div class="wrap">
     <p class="eyebrow">Дараагийн алхам</p>
-    <h2>Асуултаа шууд бичээрэй</h2>
-    <p class="lede muted" style="margin:0 auto 34px">Хэдэн хүн, хаана, ямар улиралд явахаа бичээд илгээ.
-      Аль загвар тохирохыг хэлье. Тохирохгүй бол тохирохгүй гэж хэлнэ.</p>
+    <h2>Аль загвар тохирохыг хэлье</h2>
+    <p class="lede" style="margin:0 auto 34px">Хэдэн хүн, хаана, ямар улиралд явахаа бичээд илгээ.
+      Тохирохгүй бол тохирохгүй гэж шулуухан хэлнэ.</p>
     <div class="btns">
       <a href="#" class="btn on-dark" data-msg>Мессенжерээр асуух</a>
-      <a href="#" class="btn on-dark" data-wa>WhatsApp</a>
+      <a href="#" class="btn ghost-dark" data-wa>WhatsApp</a>
     </div>
   </div>
 </section>
@@ -274,18 +441,18 @@
 <footer class="foot">
   <div class="wrap foot-in">
     <span>Mazala Outdoors · Ironman Mall, Улаанбаатар</span>
-    <span>Coody-ийн Монгол дахь онцгой эрхтэй дистрибьютер</span>
+    <span>Coody-ийн Монгол дахь албан ёсны дистрибьютер</span>
     <a href="https://mazala.online">mazala.online</a>
   </div>
 </footer>
 
 <script>
 /* ═══════════════════════════════════════════════════════════════════════
-   MAZALA — хуудасны тохиргоо
+   Хуудасны тохиргоо — зөвхөн энэ блокийг засна.
    ═══════════════════════════════════════════════════════════════════════ */
 const MAZALA = {
   messenger: 'mazala.outdoors',           // ▮ facebook.com/<энэ нэр>
-  whatsapp:  '976XXXXXXXX',               // ▮ улсын код + дугаар, тэмдэггүй
+  whatsapp:  '976XXXXXXXX',               // ▮ улсын код + дугаар
 
   ask:  'Сайн байна уу. Coody агаарын майхны талаар мэдээлэл авмаар байна.',
   b2b:  'Сайн байна уу. Байгууллагын нэрээр Coody майхан авах хүсэлтэй байна.\n'
@@ -315,13 +482,6 @@ const MAZALA = {
         + 'allowfullscreen></iframe>';
     });
   });
-
-  const rec = document.getElementById('record');
-  if (rec && 'IntersectionObserver' in window) {
-    new IntersectionObserver((e, o) => {
-      if (e[0].isIntersecting) { rec.classList.add('printed'); o.disconnect(); }
-    }, { threshold: .25 }).observe(rec);
-  } else if (rec) { rec.classList.add('printed'); }
 })();
 </script>
 </body>
