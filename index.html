@@ -2,80 +2,253 @@
 <html lang="mn">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mazala Outdoors — Монголд шалгасан гадаад орчны тоног төхөөрөмж</title>
-<meta name="description" content="Улаанбаатар дахь премиум аутдоор дэлгүүр. Greenstove, Coody, Sofirn брэндийн онцгой дистрибьютер. Монгол Шалгуур — бодит нөхцөлд шалгасан, дутагдлыг нь ч нуудаггүй.">
-<link rel="canonical" href="https://mazala.online/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mazala — Монгол шалгуураар туршсан хээрийн хэрэгсэл</title>
+<meta name="description" content="Mazala Outdoors — Монголд туршсан, баталгаатай, сэлбэгтэй хээрийн хэрэгслийн онцгой эрхтэй дистрибьютер. Greenstove, Coody, Bereg, Sofirn, Civivi, Bosean, Blackdog.">
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     ЗАСАХ ЁСТОЙ ЗҮЙЛС — «▮». Брэнд нэмэх бүрд .brand-card блок нэмнэ.
+     ═══════════════════════════════════════════════════════════════════ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Onest:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="mazala.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Mazala Outdoors", "url": "https://mazala.online", "logo": "https://mazala.online/【logo.png】", "description": "Premium outdoor equipment distributor in Mongolia. Exclusive distributor of Greenstove, Coody and Sofirn. Field-tested under the Mongol Shalguur standard.", "address": {"@type": "PostalAddress", "addressLocality": "Ulaanbaatar", "addressCountry": "MN"}, "sameAs": ["https://www.youtube.com/@TuRuuBay", "https://www.facebook.com/【mazala-page】"]}</script>
+<style>
+  :root { --signal: #C93A0B; }
+
+  /* ── brand grid, index-only ── */
+  .brands {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule);
+  }
+  .brand-card {
+    background: var(--white); padding: 34px 28px; text-decoration: none; color: var(--iron);
+    display: flex; flex-direction: column; min-height: 220px;
+    transition: background .15s ease;
+  }
+  .brand-card:hover { background: var(--iron); color: var(--white); }
+  .brand-card:hover .bc-cat { color: var(--signal); }
+  .brand-card .bc-cat {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--slate); margin-bottom: 16px;
+  }
+  .brand-card h3 { font-family: var(--display); font-size: 24px; font-weight: 700; margin: 0 0 10px; text-transform: uppercase; letter-spacing: -.01em; }
+  .brand-card p { margin: 0; font-size: 14.5px; color: var(--slate); flex-grow: 1; }
+  .brand-card:hover p { color: #B7BEC0; }
+  .brand-card .bc-go {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+    margin-top: 18px; display: flex; align-items: center; gap: 6px;
+  }
+  .brand-card.soon { opacity: .55; cursor: default; }
+  .brand-card.soon:hover { background: var(--white); color: var(--iron); }
+  .brand-card.soon:hover p { color: var(--slate); }
+  .brand-card.soon:hover .bc-cat { color: var(--slate); }
+  @media (max-width: 860px) { .brands { grid-template-columns: 1fr; } }
+
+  /* ── proof strip ── */
+  .proof { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .proof > div { background: var(--frost); padding: 26px 24px; text-align: center; }
+  .proof .num { font-family: var(--mono); font-weight: 700; font-size: clamp(26px, 3vw, 36px); color: var(--signal); }
+  .proof .lbl { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--slate); margin-top: 6px; }
+  @media (max-width: 720px) { .proof { grid-template-columns: repeat(2, 1fr); } }
+</style>
 </head>
-<body><header class="site"><div class="wrap">
-<a class="logo" href="index.html">MAZALA<span>.</span>ONLINE</a>
-<nav class="main"><a href="about.html">Бидний тухай</a>
-<a href="camping.html">Кэмп</a>
-<a href="fishing.html">Загасчлал</a>
-<a href="hiking.html">Уул</a>
-<a href="b2b.html">B2B</a>
-<a href="index.html#brands">Брэндүүд</a>
-<a class="shop" href="https://shop.mazala.online">Дэлгүүр →</a></nav>
-</div></header><div class="record"><div class="wrap"><div class="cell"><span class="k">Сүүлийн шалгуур</span><span class="v">【№ / БҮТЭЭГДЭХҮҮН】</span></div><div class="cell"><span class="k">Температур</span><span class="v">【−38°C】</span></div><div class="cell"><span class="k">Хугацаа</span><span class="v">【14 ХОНОГ】</span></div><div class="cell"><span class="k">Байршил</span><span class="v">【АРХАНГАЙ】</span></div><div class="cell"><span class="k">Илэрсэн дутагдал</span><span class="v flaw">1 — БАРИМТЖУУЛСАН</span></div><div class="cell"><span class="k">Дүгнэлт</span><span class="v pass">ТЭНЦСЭН</span></div></div></div>
-<main>
-<div class="hero"><div class="wrap">
-<span class="eyebrow">Улаанбаатар · Ironman Mall шоурүм</span>
-<h1>Бид зарж буй бүхнээ <em>Монголд шалгасан.</em></h1>
-<p class="lead">Каталогоос хуулсан амлалт биш — хээр талд, хүйтэнд, салхинд өөрсдөө хэрэглэж үзсэн үнэн. Илэрсэн дутагдлыг нь ч бид нуулгүй бичдэг. Тийм учраас л итгэж болно.</p>
-<div class="actions">
-<a class="btn btn-primary" href="https://m.me/【mazala-page-id】">Messenger-ээр холбогдох</a>
-<a class="btn btn-ghost" href="https://shop.mazala.online">Онлайн дэлгүүр</a>
-</div>
-</div></div>
+<body>
 
-<section class="block"><div class="wrap">
-<span class="kicker">Дөрвөн чиглэл</span>
-<h2>Юу хайж байна?</h2>
-<div class="grid-4" style="margin-top:28px">
-<div class="card"><h3>Кэмп</h3><p>Майхан, зуух, тавилга. Дөрвөн улирлын кэмпийн бүрэн шийдэл.</p><a class="more" href="camping.html">Үзэх →</a></div>
-<div class="card"><h3>Загасчлал</h3><p>Тул, зэвэг, хадранд тохирсон, шалгагдсан хэрэгсэл.</p><a class="more" href="fishing.html">Үзэх →</a></div>
-<div class="card"><h3>Уул, явган аялал</h3><p>Гэрэлтүүлэг, хутга, унтлагын уут — жин бүхэн тоологдоно.</p><a class="more" href="hiking.html">Үзэх →</a></div>
-<div class="card"><h3>Off-road</h3><p>Тоног төхөөрөмжийн шинэ чиглэл. Тун удахгүй.</p><span class="tag">2026 НАМАР</span></div>
-</div>
-</div></section>
+<header class="bar">
+  <div class="wrap bar-in">
+    <a href="/" class="mark">Mazala</a>
+    <span class="bar-tag">Монгол шалгуур</span>
+    <a href="#" class="btn small bar-cta" data-msg>Мессенжерээр асуух</a>
+  </div>
+</header>
 
-<section class="block" id="shalguur"><div class="wrap">
-<span class="kicker">Монгол Шалгуур</span>
-<h2>Дутагдалгүй тайлан — итгэлгүй тайлан</h2>
-<p class="sub">Бүтээгдэхүүн бүрийг бид Монголын бодит нөхцөлд шалгаж, тайланг нь нийтэлдэг. Тайлан бүрд илэрсэн дутагдал заавал бичигдэнэ — учир нь дутагдалгүй бүтээгдэхүүн гэж байдаггүй, зөвхөн шалгаагүй бүтээгдэхүүн л байдаг.</p>
-<a class="btn btn-ghost" href="shalguur/greenstove-winter.html">Шалгуурын тайлан үзэх →</a>
-</div></section>
+<!-- ── HERO ─────────────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Mazala Outdoors · Улаанбаатар</p>
+    <h1>Хямдхан биш.<span>Итгэлтэй.</span></h1>
+    <p class="lede">Бид бүтээгдэхүүн бүрийг Монголын байгальд туршиж, эвдэрсэн зүйлээ нуухгүй бичдэг.
+      Дараа нь борлуулдаг. Taobao-той үнээр биш, хариуцлагаар өрсөлддөг.</p>
+    <div class="btns">
+      <a href="#brands" class="btn">Брэндүүдийг үзэх</a>
+      <a href="#" class="btn ghost" data-msg>Мессенжерээр асуух</a>
+    </div>
+  </div>
+</section>
 
-<section class="block" id="brands"><div class="wrap">
-<span class="kicker">Брэндүүд</span>
-<h2>Албан ёсны эрхтэй брэндүүд</h2>
-<p class="sub">Онцгой дистрибьютер гэдэг нь: баталгаа, сэлбэг, буцаалтыг Монголд бид өөрсдөө хариуцна гэсэн үг. Taobao-гийн 15.5% татвар, хүлээлт, баталгаагүй эрсдэл — энд байхгүй.</p>
-<div class="brandwall"><a href="brands/greenstove.html">Greenstove<small>Онцгой дистрибьютер</small></a><a href="brands/bereg.html">Bereg<small>Албан ёсны борлуулагч</small></a><a href="brands/coody.html">Coody<small>Онцгой дистрибьютер</small></a><a href="brands/onetigris.html">OneTigris<small>Албан ёсны борлуулагч</small></a><a href="brands/sofirn.html">Sofirn<small>Онцгой дистрибьютер</small></a><a href="brands/acebeam.html">Acebeam<small>Албан ёсны борлуулагч</small></a><a href="brands/civivi.html">Civivi<small>Албан ёсны борлуулагч</small></a><a href="brands/black-ice.html">Black Ice<small>Албан ёсны нийлүүлэгч</small></a></div>
-</div></section>
+<!-- ── PROOF STRIP ──────────────────────────────────────────────────── -->
+<section class="section flush">
+  <div class="wrap">
+    <div class="proof">
+      <div><div class="num">7+</div><div class="lbl">Онцгой ба дистрибьютер эрх</div></div>
+      <div><div class="num">−34°C</div><div class="lbl">Хамгийн хүйтэн туршилт</div></div>
+      <div><div class="num">16K+</div><div class="lbl">TuRuu Bay захиалагч</div></div>
+      <div><div class="num">40%+</div><div class="lbl">Доод хязгаартай хямдрал зогсдог</div></div>
+    </div>
+  </div>
+</section>
 
-<section class="block"><div class="wrap">
-<span class="kicker">Байгууллагад</span>
-<h2>Байгууллагын худалдан авалт</h2>
-<p class="sub">Уурхай, хээрийн кэмп, аюулгүй байдлын гэрэлтүүлэг, багийн тоног төхөөрөмж — нэхэмжлэх, НӨАТ, бичгээр баталгаатай.</p>
-<a class="btn btn-ghost" href="b2b.html">B2B хуудас →</a>
-</div></section>
-</main>
-<div class="cta-band"><div class="wrap">
-<h2>Захиалга, зөвлөгөө — Messenger-ээр</h2>
-<p>Бүтээгдэхүүн сонгоход тань бид өөрсдөө хэрэглэсэн туршлагаараа зөвлөнө. Үнэ нээлттэй, тохиролцоо хэрэггүй.</p>
-<a class="btn btn-primary" href="https://m.me/【mazala-page-id】">Messenger-ээр бичих</a>
-</div></div><footer class="site"><div class="wrap">
-<div class="cols">
-<div><h4>Mazala Outdoors</h4>
-<p>Монголд шалгасан гадаад орчны тоног төхөөрөмж. Улаанбаатар, Ironman Mall шоурүм.</p></div>
-<div><h4>Чиглэл</h4>
-<a href="camping.html">Кэмп</a><a href="fishing.html">Загасчлал</a><a href="hiking.html">Уул, явган аялал</a></div>
-<div><h4>Компани</h4>
-<a href="about.html">Бидний тухай</a><a href="b2b.html">Байгууллагын худалдан авалт</a><a href="https://shop.mazala.online">Онлайн дэлгүүр</a></div>
-<div><h4>Холбоо</h4>
-<a href="https://m.me/【mazala-page-id】">Facebook Messenger</a><a href="tel:【утас】">【Утас】</a><a href="https://www.youtube.com/@TuRuuBay">TuRuu Bay — YouTube</a></div>
-</div>
-<div class="legal">© 2026 MAZALA OUTDOORS LLC · УЛААНБААТАР, МОНГОЛ УЛС</div>
-</div></footer></body></html>
+<!-- ── BRANDS ───────────────────────────────────────────────────────── -->
+<section class="section" id="brands">
+  <div class="wrap">
+    <p class="eyebrow">Бүтээгдэхүүний шугам</p>
+    <h2 class="head">Онцгой эрхтэй брэндүүд</h2>
+    <p class="lede muted">Брэнд бүр — өөрийн туршилтын бүртгэл, техникийн үзүүлэлт, баталгаатай.</p>
+
+    <div class="brands">
+      <a href="/greenstove" class="brand-card">
+        <span class="bc-cat">Гранул зуух · онцгой эрх</span>
+        <h3>Greenstove</h3>
+        <p>Гэр, зуслан, өвлийн байшинд зориулсан гранул зуух. −34°C-т 7 хоног туршсан.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/coody" class="brand-card">
+        <span class="bc-cat">Агаарын майхан · онцгой эрх</span>
+        <h3>Coody</h3>
+        <p>Гуалингүй, нэг хүн 15 минутад босгодог. Монголын салхинд туршсан.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/bereg" class="brand-card">
+        <span class="bc-cat">Завь · UP5 майхан · дистрибьютер</span>
+        <h3>Bereg</h3>
+        <p>Голд, эрэгт туршсан завь болон майхан. Хайрцагнаас ус хүртэл.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/sofirn" class="brand-card">
+        <span class="bc-cat">Гар чийдэн · онцгой эрх</span>
+        <h3>Sofirn</h3>
+        <p>Уулчин, ХАБ хэрэгцээнд зориулсан тактикал гэрэлтүүлэг. −30°C-т туршсан.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/acebeam" class="brand-card">
+        <span class="bc-cat">Гар чийдэн · дистрибьютер</span>
+        <h3>Acebeam</h3>
+        <p>Дээд зэрэглэлийн гэрэлтүүлэг. Хамгийн хол тусгал, өндөр угсралтын чанар.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/civivi" class="brand-card">
+        <span class="bc-cat">EDC хутга · дистрибьютер</span>
+        <h3>Civivi</h3>
+        <p>Өдөр тутмын зөөвөрт зориулсан эвхдэг хутга. Ган, угсралтын чанар үнээсээ илүү.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/black-ice" class="brand-card">
+        <span class="bc-cat">Унтлагын уут · нийлүүлэгч</span>
+        <h3>Black Ice</h3>
+        <p>Галуун өдөн унтлагын уут, өвлийн хувцас. Өндөр уулын экспедицид зориулагдсан.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="/onetigris" class="brand-card">
+        <span class="bc-cat">Кэмпийн хэрэгсэл · дистрибьютер</span>
+        <h3>OneTigris</h3>
+        <p>Кэмпийн ширээ, сандал, тохижилтын хэрэгсэл. Байнга аялдаг хүний ажлын морь.</p>
+        <span class="bc-go">Дэлгэрэнгүй →</span>
+      </a>
+      <a href="#" class="brand-card soon" aria-disabled="true">
+        <span class="bc-cat">Хийн мэдрэгч · дистрибьютер</span>
+        <h3>Bosean</h3>
+        <p>▮ Хуудас бэлдэж байна.</p>
+        <span class="bc-go">Тун удахгүй</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── МОНГОЛ ШАЛГУУР — арга зүй ────────────────────────────────────── -->
+<section class="section dark">
+  <div class="wrap">
+    <p class="eyebrow">Аргачлал</p>
+    <h2 class="head">Монгол шалгуур гэж юу вэ</h2>
+    <p class="lede muted">Бүтээгдэхүүн бүрийг Монголын бодит нөхцөлд — хүйтэн, салхи, зам, ус —
+      туршиж, олсон зүйлээ бичиж, борлуулалтад гаргахын өмнө нийтэлдэг. Сайн муугаа хоёуланг нь.</p>
+    <div class="cols">
+      <div>
+        <span class="n">01</span>
+        <h3>Бодит нөхцөлд туршина</h3>
+        <p>Дэлгүүрийн тавиур биш — гэр, зуслан, гол, уулын аялалд. Тэр орчинд өөрсдөө хэрэглэж үзнэ.</p>
+      </div>
+      <div>
+        <span class="n">02</span>
+        <h3>Илэрсэн доголдлыг бичнэ</h3>
+        <p>Ямар нэг зүйл эвдэрсэн, сулрасан, тохиромжгүй байсан бол нуухгүй бичнэ. Төгс дүгнэлт итгэл төрүүлдэггүй.</p>
+      </div>
+      <div>
+        <span class="n">03</span>
+        <h3>Тэнцсэн зүйлийг л зарна</h3>
+        <p>Шалгуурыг давсан бүтээгдэхүүн генэ борлуулалтад орно. Давахгүй бол — эрх авахгүй, зарахгүй.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TuRuu Bay холбоос ────────────────────────────────────────────── -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Агуулга</p>
+    <h2 class="head">TuRuu Bay дээр туршилтуудыг үз</h2>
+    <p class="lede muted">Худалдаж авахаасаа өмнө туршилтын бичлэгийг үз. Хямдруулаагүй, бодит дүгнэлт.</p>
+    <div class="btns">
+      <a href="#" class="btn ghost">▮ YouTube — TuRuu Bay →</a>
+      <a href="#" class="btn ghost">▮ Facebook →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── БАЙГУУЛЛАГА ──────────────────────────────────────────────────── -->
+<section class="section dark">
+  <div class="wrap">
+    <p class="eyebrow">Байгууллага · бүлгээр авах</p>
+    <h2 class="head">Аж ахуйн нэгж, бааз, багийн худалдан авалт</h2>
+    <p class="lede muted" style="max-width:56ch">Гэрээ, НӨАТ-тай нэхэмжлэх, тоо ширхгээс хамаарсан
+      үнэ. Уурхай, аялал жуулчлалын бааз, компанийн бэлэг — бид тусад нь харьцдаг.</p>
+    <div class="btns">
+      <a href="#" class="btn on-dark" data-msg-b2b>Байгууллагын хүсэлт илгээх</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── ХААЛТ ────────────────────────────────────────────────────────── -->
+<section class="section close-cta">
+  <div class="wrap">
+    <p class="eyebrow">Дараагийн алхам</p>
+    <h2>Хайж байгаа зүйлээ бичээрэй</h2>
+    <p class="lede muted" style="margin:0 auto 34px">Ямар хэрэгсэл хэрэгтэйгээ, хаана хэрэглэхээ
+      бичээд илгээ. Тохирох брэндийг зааж өгье.</p>
+    <div class="btns">
+      <a href="#" class="btn" data-msg>Мессенжерээр асуух</a>
+      <a href="#" class="btn ghost" data-wa>WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Mazala Outdoors · Ironman Mall, Улаанбаатар</span>
+    <span>Монгол шалгуураар туршсан хээрийн хэрэгсэл</span>
+    <a href="https://shop.mazala.online">shop.mazala.online</a>
+  </div>
+</footer>
+
+<script>
+const MAZALA = {
+  messenger: 'mazala.outdoors',           // ▮ facebook.com/<энэ нэр>
+  whatsapp:  '976XXXXXXXX',               // ▮ улсын код + дугаар
+
+  ask:  'Сайн байна уу. Аль бүтээгдэхүүн тохирохыг зөвлөнө үү.',
+  b2b:  'Сайн байна уу. Байгууллагын нэрээр худалдан авалт хийх хүсэлтэй байна.\n'
+      + 'Байгууллага: \nСонирхож буй бүтээгдэхүүн: \nШаардлагатай тоо: \nХугацаа: '
+};
+
+(function () {
+  const mUrl = t => 'https://m.me/' + MAZALA.messenger + '?text=' + encodeURIComponent(t);
+  const wUrl = t => 'https://wa.me/' + MAZALA.whatsapp + '?text=' + encodeURIComponent(t);
+
+  document.querySelectorAll('[data-msg]').forEach(a => a.href = mUrl(MAZALA.ask));
+  document.querySelectorAll('[data-msg-b2b]').forEach(a => a.href = mUrl(MAZALA.b2b));
+  document.querySelectorAll('[data-wa]').forEach(a => a.href = wUrl(MAZALA.ask));
+})();
+</script>
+</body>
+</html>
